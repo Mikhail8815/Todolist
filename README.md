@@ -1,23 +1,36 @@
-# IT-INCUBATOR Todolist Project
+✅ Tasks Manager
+Веб-приложение для управления задачами с авторизацией и полным бэкендом.
 
-## React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite.
+👨‍💻 Мой вклад
+Frontend-разработка:
 
-## Getting Started
+Полный CRUD для задач: добавление, редактирование, удаление, фильтрация
 
-### 1. Install dependencies:
+Формы с валидацией на React Hook Form
 
-```bash
-pnpm i
-```
+Глобальное состояние на Redux Toolkit и RTK Query
 
-### 2. Start app:
+Интеграция с REST API
 
-```bash
-pnpm dev
-```
+Светлая/тёмная тема с сохранением настроек
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🚀 Как пользоваться
+Перейдите по ссылке 
 
-Happy hacking 🚀
+На странице регистрации используйте тестовые данные:
+
+Email: free@samuraijs.com
+
+Password: free
+
+Начните управлять задачами
+
+🛠 Технологии
+React • TypeScript
+
+Redux Toolkit • RTK Query
+
+React Hook Form • Material UI
+
+REST API • Axios
