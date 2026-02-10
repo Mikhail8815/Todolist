@@ -5,11 +5,11 @@ import { handleError } from "@/common/utils/handleError"
 export const baseApi = createApi({
   reducerPath: "todolistsApi",
   tagTypes: ["Todolists", "Tasks"],
-    refetchOnReconnect: true,
+  refetchOnReconnect: true,
   baseQuery: async (args, api, extraOptions) => {
     const result = await fetchBaseQuery({
       baseUrl: "https://social-network.samuraijs.com/api/1.1",
-      credentials: 'include',
+      credentials: "omit",
       prepareHeaders: (headers) => {
         headers.set("API-KEY", import.meta.env.VITE_API_KEY)
         headers.set("Authorization", `Bearer ${localStorage.getItem(AUTH_TOKEN)}`)
