@@ -10,7 +10,7 @@
     "test": "vitest",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
-    "predeploy" : "pnpm run build"
+    "predeploy": "pnpm run build"
   },
   "dependencies": {
     "@emotion/react": "11.14.0",
@@ -26,6 +26,7 @@
     "react-hook-form": "^7.54.2",
     "react-redux": "9.2.0",
     "react-router": "^7.4.0",
+    "react-router-dom": "^7.13.0",
     "zod": "^3.24.2"
   },
   "devDependencies": {
