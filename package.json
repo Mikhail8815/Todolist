@@ -6,7 +6,7 @@
   "homepage": "https://mikhail8815.github.io/Todolist",
   "scripts": {
     "dev": "vite --port 3000",
-    "build": "tsc -b && vite build --base=/Todolist/",
+    "build": "tsc -b && vite build",
     "test": "vitest",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist",
