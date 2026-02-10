@@ -17,15 +17,6 @@ export const Routing = () => {
 
   return (
     <Routes>
-      {/*<Route*/}
-      {/*  path={Path.Main}*/}
-      {/*  element={*/}
-      {/*    <ProtectedRoute isAllowed={isLoggedIn}>*/}
-      {/*      <Main />*/}
-      {/*    </ProtectedRoute>*/}
-      {/*  }*/}
-      {/*/>*/}
-
       <Route element={<ProtectedRoute isAllowed={isLoggedIn} />}>
         <Route path={Path.Main} element={<Main />} />
         //Тут другие роуты
